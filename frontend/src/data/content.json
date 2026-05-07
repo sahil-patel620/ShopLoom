@@ -1,0 +1,129 @@
+{
+  "categories": [
+    {
+      "title": "Categories For Women",
+      "data": [
+        {
+          "title": "Hoodies & Sweatshirt",
+          "description": "Explore Now!",
+          "imagePath": "/img/women-hoodie.png"
+        },
+        {
+          "title": "Coats & Parkas",
+          "description": "Explore Now!",
+          "imagePath": "/img/women-coat.png"
+        },
+        {
+          "title": "Tees & T-Shirt",
+          "description": "Explore Now!",
+          "imagePath": "/img/women-tshirt.png"
+        },
+        {
+          "title": "Shorts",
+          "description": "Explore Now!",
+          "imagePath": "/img/women-short.png"
+        },
+        {
+          "title": "Dresses",
+          "description": "Explore Now!",
+          "imagePath": "/img/women-dresses.png"
+        }
+      ]
+    },
+
+    {
+      "title": "Categories For Men",
+      "data": [
+        {
+          "title": "Shirts",
+          "description": "Explore Now!",
+          "imagePath": "/img/men-shirt.png"
+        },
+        {
+          "title": "T-Shirts",
+          "description": "Explore Now!",
+          "imagePath": "/img/men-tshirt.png"
+        },
+        {
+          "title": "Joggers",
+          "description": "Explore Now!",
+          "imagePath": "/img/men-jogger.png"
+        },
+        {
+          "title": "Jackets",
+          "description": "Explore Now!",
+          "imagePath": "/img/men-jacket.png"
+        },
+        {
+          "title": "Hoodies",
+          "description": "Explore Now!",
+          "imagePath": "/img/men-hoodie.png"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "items": [
+      {
+        "title": "Need Help",
+        "list": [
+          {
+            "label": "Contact Us",
+            "path": "/contact-us"
+          },
+          {
+            "label": "Track Order",
+            "path": "/track-order"
+          },
+          {
+            "label": "Returns & Refunds",
+            "path": "/refunds"
+          },
+          {
+            "label": "FAQ's",
+            "path": "/faq"
+          },
+          {
+            "label": "Career",
+            "path": "/career"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "list": [
+          {
+            "label": "About Us",
+            "path": "/about"
+          },
+          {
+            "label": "Media",
+            "path": "/media"
+          }
+        ]
+      },
+      {
+        "title": "More Info",
+        "list": [
+          {
+            "label": "Term and Conditions",
+            "path": "/terms-conditions"
+          },
+          {
+            "label": "Privacy Policy",
+            "path": "/policies"
+          },
+          {
+            "label": "Shipping Policy",
+            "path": "/policies"
+          }
+        ]
+      },
+      {
+        "title": "Location",
+        "description": "India"
+      }
+    ],
+    "copyright": "Copyright © 2024 ShopLoom. All rights reserved."
+  }
+}

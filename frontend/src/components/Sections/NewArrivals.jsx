@@ -1,6 +1,7 @@
 import React from "react";
 import SectionHeading from "./SectionsHeading/SectionHeading";
 import Card from "../Card/Card";
+import "./NewArrivals.css";
 
 import CarouselModule from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -23,9 +24,9 @@ const items = [
   { title: "Joggers", imagePath: Joggers },
   { title: "Kurtis", imagePath: Kurtis },
 ];
-console.log(Card);
-console.log(SectionHeading);
-console.log(Carousel);
+// console.log(Card);
+// console.log(SectionHeading);
+// console.log(Carousel);
 
 const NewArrivals = () => {
   return (
@@ -34,19 +35,17 @@ const NewArrivals = () => {
 
       <Carousel
         responsive={responsive}
-        infinite={true}
-        // autoPlay={true}
         infinite
         autoPlay
-        autoPlaySpeed={2500}
+        autoPlaySpeed={3000}
         swipeable
         pauseOnHover
-        autoPlaySpeed={3000}
-        keyBoardControl={true}
+        keyBoardControl
         showDots={false}
-        arrows={false}
+        arrows
         containerClass="px-10"
-        itemClass="px-2"
+        // itemClass={"react-slider-custom-item"}
+        // className ='px-8'
       >
         {items.map((item, index) => (
           <Card key={index} imagePath={item.imagePath} title={item.title} />
