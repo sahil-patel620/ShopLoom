@@ -1,5 +1,3 @@
-import { useState } from "react";
-import heroImg from "./assets/hero.png";
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
 import HeroSection from "./components/HeroSection/HeroSection";

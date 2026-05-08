@@ -5,29 +5,35 @@ import {
   HiOutlineUser,
   HiOutlineShoppingCart,
 } from "react-icons/hi";
+import { Link, NavLink } from "react-router";
+import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <nav className="flex items-center justify-between px-4 sm:px-8 lg:px-16 py-4 lg:py-6">
-
+    <nav className="flex items-center justify-between px-4 sm:px-8 lg:px-16 py-4 lg:py-4">
       {/* Logo */}
-      <a className="text-xl sm:text-2xl lg:text-3xl font-bold" href="/">
-        ShopLoom
-      </a>
+      <Link className="flex items-center gap-2 text-xl sm:text-2xl lg:text-2xl font-bold" to="/">
+        <img
+          src="/shopLoom.svg"
+          alt="ShopLoom Logo"
+          className="w-6 h-6 sm:w-10 sm:h-10 object-contain"
+        />
+        <span>ShopLoom</span>
+      </Link>
 
       {/* Nav Links (hidden on mobile) */}
       <ul className="hidden lg:flex gap-8">
         <li className="text-gray-600 hover:text-red-500">
-          <a href="/">Shop</a>
+          <NavLink to="/" className={({isActive})=> isActive? 'active-link': ''}>Shop</NavLink>
         </li>
         <li className="text-gray-600 hover:text-red-500">
-          <a href="/mens">Men</a>
+          <NavLink to="/mens" className={({isActive})=> isActive? 'active-link': ''}>Men</NavLink>
         </li>
         <li className="text-gray-600 hover:text-red-500">
-          <a href="/womens">Women</a>
+          <NavLink to="/womens" className={({isActive})=> isActive? 'active-link': ''}>Women</NavLink>
         </li>
         <li className="text-gray-600 hover:text-red-500">
-          <a href="/kids">Kids</a>
+          <NavLink to="/kids" className={({isActive})=> isActive? 'active-link': ''}>Kids</NavLink>
         </li>
       </ul>
 
@@ -44,13 +50,15 @@ const Navigation = () => {
       {/* Icons */}
       <ul className="flex items-center gap-4 sm:gap-6">
         <li>
-          <HiOutlineHeart className="h-5 w-5 sm:h-6 sm:w-6 text-gray-700" />
+          <HiOutlineHeart className="h-5 w-5 sm:h-6 sm:w-6 text-gray-700  hover:text-pink-500 hover:fill-pink-500" />
         </li>
         <li>
-          <HiOutlineUser className="h-5 w-5 sm:h-6 sm:w-6 text-gray-700" />
+          <HiOutlineUser className="h-5 w-5 sm:h-6 sm:w-6 text-gray-700 hover:text-blue-500 hover:fill-blue-500" />
         </li>
         <li>
-          <HiOutlineShoppingCart className="h-5 w-5 sm:h-6 sm:w-6 text-gray-700" />
+          <Link to="/cart-items">
+            <HiOutlineShoppingCart className="h-5 w-5 sm:h-6 sm:w-6 text-gray-700 hover:text-green-500 hover:fill-green-500" />
+          </Link>
         </li>
       </ul>
     </nav>
@@ -58,7 +66,6 @@ const Navigation = () => {
 };
 
 export default Navigation;
-
 
 // import React, { useState } from "react";
 // import {
@@ -122,7 +129,7 @@ export default Navigation;
 
 //       {/* 🔥 Mobile Drawer */}
 //       <div
-//         className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg z-50 transform transition-transform duration-300 
+//         className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg z-50 transform transition-transform duration-300
 //         ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
 //       >
 //         {/* Close button */}

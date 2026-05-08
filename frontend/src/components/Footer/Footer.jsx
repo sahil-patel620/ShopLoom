@@ -4,11 +4,11 @@ import { FaSquareFacebook, FaSquareInstagram } from "react-icons/fa6";
 const Footer = ({ content }) => {
   return (
     <div className="bg-black text-white ">
-      <div className="flex p-8 justify-around ">
+      <div className="flex  p-8 justify-around ">
         {content?.items &&
           content?.items.map((item, index) => {
             return (
-              <div className="flex flex-col">
+              <div className="flex flex-col mt-6">
                 <p className="text-[18px] pb-2.5 font-bold uppercase tracking-widest text-gray-100 ">{item?.title}</p>
                 {item?.list &&
                   item?.list?.map((listItem, listIndex) => (
@@ -34,7 +34,7 @@ const Footer = ({ content }) => {
           <FaSquareInstagram className="text-4xl text-gray-200 hover:text-red-500 transition-all hover:scale-105 hover:-translate-y-1 hover:drop-shadow-[0_0_10px_rgba(37,99,235,0.8)] cursor-pointer " />
         </a>
       </div>
-      <p className="text-sm pb-4 text-white text-center content-center">
+      <p className="text-sm mt-0 pb-4 text-white text-center content-center">
         {content?.copyright}
       </p>
     </div>
