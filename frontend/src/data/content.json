@@ -1,67 +1,71 @@
 {
-  "categories": [
-    {
-      "title": "Categories For Women",
-      "data": [
+  "pages": {
+    "shop": {
+      "sections": [
         {
-          "title": "Hoodies & Sweatshirt",
-          "description": "Explore Now!",
-          "imagePath": "/img/women-hoodie.png"
+          "title": "Categories For Women",
+          "data": [
+            {
+              "title": "Hoodies & Sweetshirt",
+              "description": "Explore Now!",
+              "imagePath": "/img/women-hoodie.png"
+            },
+            {
+              "title": "Coats & Parkas",
+              "description": "Explore Now!",
+              "imagePath": "/img/women-coat.png"
+            },
+            {
+              "title": "Tees & T-Shirt",
+              "description": "Explore Now!",
+              "imagePath": "/img/women-tshirt.png"
+            },
+            {
+              "title": "Shorts",
+              "description": "Explore Now!",
+              "imagePath": "/img/women-short.png"
+            },
+            {
+              "title": "Dresses",
+              "description": "Explore Now!",
+              "imagePath": "/img/women-dresses.png"
+            }
+          ]
         },
         {
-          "title": "Coats & Parkas",
-          "description": "Explore Now!",
-          "imagePath": "/img/women-coat.png"
-        },
-        {
-          "title": "Tees & T-Shirt",
-          "description": "Explore Now!",
-          "imagePath": "/img/women-tshirt.png"
-        },
-        {
-          "title": "Shorts",
-          "description": "Explore Now!",
-          "imagePath": "/img/women-short.png"
-        },
-        {
-          "title": "Dresses",
-          "description": "Explore Now!",
-          "imagePath": "/img/women-dresses.png"
-        }
-      ]
-    },
-
-    {
-      "title": "Categories For Men",
-      "data": [
-        {
-          "title": "Shirts",
-          "description": "Explore Now!",
-          "imagePath": "/img/men-shirt.png"
-        },
-        {
-          "title": "T-Shirts",
-          "description": "Explore Now!",
-          "imagePath": "/img/men-tshirt.png"
-        },
-        {
-          "title": "Joggers",
-          "description": "Explore Now!",
-          "imagePath": "/img/men-jogger.png"
-        },
-        {
-          "title": "Jackets",
-          "description": "Explore Now!",
-          "imagePath": "/img/men-jacket.png"
-        },
-        {
-          "title": "Hoodies",
-          "description": "Explore Now!",
-          "imagePath": "/img/men-hoodie.png"
+          "title": "Categories For Men",
+          "data": [
+            {
+              "title": "Shirts",
+              "description": "Explore Now!",
+              "imagePath": "/img/men-shirt.png"
+            },
+            {
+              "title": "T-Shirts",
+              "description": "Explore Now!",
+              "imagePath": "/img/men-tshirt.png"
+            },
+            {
+              "title": "Joggers",
+              "description": "Explore Now!",
+              "imagePath": "/img/men-jogger.png"
+            },
+            {
+              "title": "Jackets",
+              "description": "Explore Now!",
+              "imagePath": "/img/men-jacket.png"
+            },
+            {
+              "title": "Hoodies",
+              "description": "Explore Now!",
+              "imagePath": "/img/men-hoodie.png"
+            }
+          ]
         }
       ]
     }
-  ],
+  },
+
   "footer": {
     "items": [
       {
@@ -125,5 +129,151 @@
       }
     ],
     "copyright": "Copyright © 2024 ShopLoom. All rights reserved."
-  }
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Men",
+      "code": "MEN",
+      "description": "Men's Clothing",
+      "types": [
+        {
+          "id": 1,
+          "name": "Jeans",
+          "description": "Men's jeans"
+        },
+        {
+          "id": 2,
+          "name": "Shirts",
+          "description": "Men's shirts"
+        },
+        {
+          "id": 3,
+          "name": "Shorts",
+          "description": "Men's shorts"
+        },
+        {
+          "id": 4,
+          "name": "T-shirts",
+          "description": "Men's t-shirts"
+        }
+      ],
+      "meta_data": {
+        "colors": [
+          "Black",
+          "White",
+          "Purple",
+          "Gray",
+          "Blue",
+          "Red",
+          "Orange",
+          "Navy",
+          "Grey",
+          "Yellow",
+          "Pink",
+          "Green"
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Women",
+      "code": "WOMEN",
+      "description": "Women's Clothing",
+      "types": [
+        {
+          "id": 5,
+          "code": "DRESSES",
+          "name": "Dresses"
+        },
+        {
+          "id": 6,
+          "code": "CROPTOP",
+          "name": "Crop Top"
+        },
+        {
+          "id": 7,
+          "code": "SHORTS",
+          "name": "Shorts"
+        },
+        {
+          "id": 8,
+          "code": "JEANS",
+          "name": "Jeans"
+        },
+        {
+          "id": 9,
+          "code": "TSHIRTS",
+          "name": "T-shirt"
+        },
+        {
+          "id": 10,
+          "code": "SWEATSHIRT",
+          "name": "Hoodie/Sweatshirt"
+        },
+        {
+          "id": 11,
+          "code": "TOPS",
+          "name": "Tops"
+        },
+        {
+          "id": 12,
+          "code": "BOXERS",
+          "name": "Boxers"
+        },
+        {
+          "id": 13,
+          "code": "KURTIS",
+          "name": "Kurtis"
+        }
+      ],
+      "meta_data": {
+        "colors": [
+          "Black",
+          "White",
+          "Purple",
+          "Gray",
+          "Blue",
+          "Red",
+          "Orange",
+          "Navy",
+          "Grey",
+          "Yellow",
+          "Pink",
+          "Green"
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Kids",
+      "code": "KIDS",
+      "description": "Kids Clothing",
+      "types": [
+        {
+          "id": 15,
+          "name": "T-shirts",
+          "description": "Kids' t-shirts"
+        },
+        {
+          "id": 16,
+          "name": "Shorts",
+          "description": "Kids' shorts"
+        },
+        {
+          "id": 17,
+          "name": "Dresses",
+          "description": "Kids' dresses"
+        },
+        {
+          "id": 18,
+          "name": "Jeans",
+          "description": "Kids' jeans"
+        }
+      ],
+      "meta_data": {}
+    }
+  ]
 }

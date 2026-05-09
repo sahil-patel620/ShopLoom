@@ -27,10 +27,10 @@ const Navigation = () => {
           <NavLink to="/" className={({isActive})=> isActive? 'active-link': ''}>Shop</NavLink>
         </li>
         <li className="text-gray-600 hover:text-red-500">
-          <NavLink to="/mens" className={({isActive})=> isActive? 'active-link': ''}>Men</NavLink>
+          <NavLink to="/men" className={({isActive})=> isActive? 'active-link': ''}>Men</NavLink>
         </li>
         <li className="text-gray-600 hover:text-red-500">
-          <NavLink to="/womens" className={({isActive})=> isActive? 'active-link': ''}>Women</NavLink>
+          <NavLink to="/women" className={({isActive})=> isActive? 'active-link': ''}>Women</NavLink>
         </li>
         <li className="text-gray-600 hover:text-red-500">
           <NavLink to="/kids" className={({isActive})=> isActive? 'active-link': ''}>Kids</NavLink>

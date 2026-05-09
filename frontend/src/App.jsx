@@ -1,5 +1,4 @@
 import "./App.css";
-import Navigation from "./components/Navigation/Navigation";
 import HeroSection from "./components/HeroSection/HeroSection";
 import NewArrivals from "./components/Sections/NewArrivals";
 import "react-multi-carousel/lib/styles.css";
@@ -8,15 +7,16 @@ import content from "./data/content.json";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-  return <>
-    <Navigation/>
-    <HeroSection/>
-    <NewArrivals/>
-    {content?.categories && content?.categories.map((item, index) => (
-      <Category key={item?.title + index} {...item} />
-    ))}
-    <Footer content={content.footer} />
-  </>
+  return (
+    <>
+      <HeroSection />
+      <NewArrivals />
+      {content?.pages?.shop?.sections?.map((item, index) => (
+        <Category key={item?.title + index} {...item} />
+      ))}
+      <Footer content={content.footer} />
+    </>
+  );
 }
 
 export default App;
