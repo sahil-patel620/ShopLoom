@@ -12,15 +12,15 @@ const ProductCard = ({
 }) => {
   return (
     <div
-      className="flex flex-col hover:scale-102 transition-all duration-200 ease-in-out relative"
+      className="flex flex-col hover:scale-102 transition-all duration-200 ease-in-out relative border border-gray-200 rounded-lg "
     >
       <img
-        className="h-80 w-70  border border-gray-300 rounded-lg object-cover cursor-pointer block"
+        className="h-120 w-90 rounded-t-lg object-cover cursor-pointer block"
         src={thumbnail}
         alt={title}
       />
 
-      <div className="flex justify-between items-center ">
+      <div className="flex justify-between rounded-b-lg p-3 bg-violet-100 items-center ">
         <div className="flex flex-col pt-2">
           <p className="text-[16px] p-1">{title}</p>
           {description && (

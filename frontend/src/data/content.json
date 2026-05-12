@@ -626,6 +626,67 @@
       "images": ["kids-green-jacket1.jpg", "kids-green-jacket2.jpg"],
       "thumbnail": "/productsImages/kids/kids-green-jacket.png",
       "rating": 4.6
+    },
+    {
+      "id": 28,
+      "title": "Women's Brown Bodycon Dress",
+      "description": "Elegant full sleeve brown bodycon dress with a modern slim fit design",
+      "category_id": 2,
+      "type_id": 36,
+      "brand": "Zara",
+      "price": 79.99,
+      "size": ["S", "M", "L"],
+      "color": ["Brown"],
+      "discount": 15,
+      "images": ["brown-bodycon-dress1.jpg", "brown-bodycon-dress2.jpg"],
+      "thumbnail": "/productsImages/womens/brown-bodycon-dress.png",
+      "rating": 4.9
+    },
+
+    {
+      "id": 30,
+      "title": "Royal Blue Saree",
+      "description": "Elegant royal blue saree with a vibrant printed blouse for festive and traditional occasions",
+      "category_id": 2,
+      "type_id": 38,
+      "brand": "Biba",
+      "price": 89.99,
+      "size": ["Free Size"],
+      "color": ["Blue", "Yellow"],
+      "discount": 18,
+      "images": ["royal-blue-saree1.jpg", "royal-blue-saree2.jpg"],
+      "thumbnail": "/productsImages/womens/royal-blue-saree.png",
+      "rating": 4.8
+    },
+    {
+      "id": 31,
+      "title": "Red Printed Wrap Top",
+      "description": "Stylish red printed wrap top with full sleeves and a modern deep neck design",
+      "category_id": 2,
+      "type_id": 39,
+      "brand": "Zara",
+      "price": 44.99,
+      "size": ["S", "M", "L"],
+      "color": ["Red", "Orange"],
+      "discount": 16,
+      "images": ["red-wrap-top1.jpg", "red-wrap-top2.jpg"],
+      "thumbnail": "/productsImages/womens/red-wrap-top.png",
+      "rating": 4.6
+    },
+    {
+      "id": 32,
+      "title": "Purple Designer Saree",
+      "description": "Elegant purple designer saree with golden detailing perfect for festive and wedding occasions",
+      "category_id": 2,
+      "type_id": 40,
+      "brand": "Manyavar Mohey",
+      "price": 119.99,
+      "size": ["Free Size"],
+      "color": ["Purple", "Gold"],
+      "discount": 22,
+      "images": ["purple-designer-saree1.jpg", "purple-designer-saree2.jpg"],
+      "thumbnail": "/productsImages/womens/purple-designer-saree.png",
+      "rating": 4.9
     }
   ]
 }
