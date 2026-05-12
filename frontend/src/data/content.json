@@ -659,21 +659,6 @@
       "rating": 4.8
     },
     {
-      "id": 31,
-      "title": "Red Printed Wrap Top",
-      "description": "Stylish red printed wrap top with full sleeves and a modern deep neck design",
-      "category_id": 2,
-      "type_id": 39,
-      "brand": "Zara",
-      "price": 44.99,
-      "size": ["S", "M", "L"],
-      "color": ["Red", "Orange"],
-      "discount": 16,
-      "images": ["red-wrap-top1.jpg", "red-wrap-top2.jpg"],
-      "thumbnail": "/productsImages/womens/red-wrap-top.png",
-      "rating": 4.6
-    },
-    {
       "id": 32,
       "title": "Purple Designer Saree",
       "description": "Elegant purple designer saree with golden detailing perfect for festive and wedding occasions",
