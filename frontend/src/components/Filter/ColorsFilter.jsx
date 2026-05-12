@@ -25,7 +25,7 @@ const ColorsFilter = ({ colors }) => {
         setAppliedColors([...appliedColors, item]);
       }
     },
-    [appliedColors],
+    [appliedColors, setAppliedColors],
   );
 
   return (
@@ -43,7 +43,7 @@ const ColorsFilter = ({ colors }) => {
                 {" "}
               </div>
               <p className="text-gray-500 text-[12px]" style={{color:`${appliedColors?.includes(item) ? 'black':''}`}}>{item}</p>
-              
+
             </div>
           );
         })}
