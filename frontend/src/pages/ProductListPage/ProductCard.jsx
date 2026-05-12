@@ -15,7 +15,7 @@ const ProductCard = ({
       className="flex flex-col hover:scale-102 transition-all duration-200 ease-in-out relative border border-gray-200 rounded-lg "
     >
       <img
-        className="h-120 w-90 rounded-t-lg object-cover cursor-pointer block"
+        className="h-80 w-75 rounded-t-lg object-cover cursor-pointer block"
         src={thumbnail}
         alt={title}
       />
