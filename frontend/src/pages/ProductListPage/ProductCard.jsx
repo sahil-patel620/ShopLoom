@@ -20,7 +20,7 @@ const ProductCard = ({
         alt={title}
       />
 
-      <div className="flex justify-between rounded-b-lg p-3 bg-violet-100 items-center ">
+      <div className="flex justify-between rounded-b-lg p-3 bg-violet-200 items-center ">
         <div className="flex flex-col pt-2">
           <p className="text-[16px] p-1">{title}</p>
           {description && (
